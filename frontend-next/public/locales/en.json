@@ -1,0 +1,1492 @@
+{
+    "home": {
+      "title": "Bem-vindo à Página Inicial",
+      "greeting": "Olá, {{name}}!"
+    },
+  
+    "crud": {
+    "cadastro": {
+        "titulo": {
+        "bairro": "Registration",
+        "profissional": "Registration",
+        "estatistica_unidade": "Registration",
+        "estimativa_unidade_detalhes": "Details",
+        "estimativa_unidade": "Registration",
+        "importacao": "Registration",
+        "metrica": "Registration",
+        "orcamento": "Registration",
+        "otimizacao": "Optimization: Health Units",
+        "tipo_profissional": "Registration",
+        "tipo_unidade": "Registration",
+        "otimizacao_profissional": "Optimization: Professionals",
+        "unidade_aps": "Registration",
+        "otimizacao.detalhes": "Registration",
+        "indicadorPerformance": "Registration",
+        "estimativa_demanada": "Registration",
+        "especialidade": "Registration",
+        "demanda_profissional": "Registration",
+        "atendimento_agregado": "Registration",
+        "parametro_otimizacao": "Optimization Parameter",
+        "estimativa_demanda": "Demand Estimate",
+        "estado": "Registration",
+        "cidade": "Registration"
+        }
+    },
+    "pesquisa": {
+        "titulo": {
+        "bairros": "Neighborhoods",
+        "cidades": "Cities",
+        "estados": "States",
+        "profissionais": "Professionals",
+        "tipo_profissional": "Professional Types",
+        "tipos_unidades": "Unit Types",
+        "atendimentos_agregados": "Aggregated Visits",
+        "demandas_profissionais": "Professional Demands",
+        "especialidades": "Specialties",
+        "estatistica_unidade": "Unit Statistics",
+        "estimativa_demanda": "Demand Estimates",
+        "estimativa_unidade": "Demand Estimate by Unit",
+        "logs": "Logs",
+        "logs_autenticacao": "Authentication Logs",
+        "otimizacao_unidades": "Health Units Optimization",
+        "parametro_otimizacao": "Optimization Parameter",
+        "unidades_aps": "Primary Care Units",
+        "usuarios": "Users",
+        "metricas": "Metrics",
+        "otimizacao_profissionais": "Professionals Optimization",
+        "importar": "Import File",
+        "indicadores": "Indicators",
+        "orcamentos": "Budgets",
+        "otimizacao": "Health Units Optimization",
+        "indicador_performance": "Performance Indicator"
+        }
+    }
+    },
+  
+    "migalha": {
+        "inicio": "Home",
+        "configuracoes": "Settings",
+        "profissionais": "Professionals",
+        "tipo_profissional": "Professional Type",
+        "parametro_otimizacao": "Optimization Parameter",
+        "orcamento": "Budget",
+        "areas": "Areas",
+        "bairros": "Neighborhoods",
+        "atendimentos_agregados": "Aggregated Visits",
+        "estados": "States",
+        "cidades": "Cities",
+        "especialidades": "Specialties",
+        "demandas_profissionais": "Professional Demands",
+        "estatistica_unidade": "Unit Statistics",
+        "estimativa_demanda": "Demand Estimate",
+        "estimativa_unidade": "Unit Estimate",
+        "importar": "Import",
+        "logs": "Logs",
+        "indicador_performance": "Performance Indicator",
+        "indicador": "Indicators",
+        "metricas": "Metrics",
+        "minha_conta": "My Account",
+        "sistema": "System",
+        "alterar_senha": "Change Password",
+        "tipo_unidade": "Unit Type",
+        "otimizacao": "Optimization",
+        "otimizacao_profissionais": "Professionals",
+        "unidades_aps": "Primary Care Units",
+        "usuarios": "Users",
+        "logs_autenticacao": "Authentication Logs",
+        "otimizacao_unidades": "Optimization",
+        "unidade_aps": "Primary Care Units",
+        "nao_encontrado": "Not Found"
+        },
+
+  
+        "confirmacao": {
+        "salvar": {
+            "bairro": "Do you want to save the neighborhood?",
+            "cidade": "Do you want to save the city?",
+            "estado": "Do you want to save the state?",
+            "especialidade": "Do you want to save the specialty?",
+            "estimativa": "Do you want to save the estimate?",
+            "indicador": "Do you want to save the indicator?",
+            "parametro_otimizacao": "Do you want to save the optimization parameter?",
+            "estatistica_unidade": "Do you want to save the unit statistic?",
+            "atendimento_agregado": "Do you want to save the aggregated visit?",
+            "demanda_profissional": "Do you want to save the professional demand?",
+            "profissional": "Do you want to save the professional?",
+            "metrica": "Do you want to save the metric?",
+            "orcamento": "Do you want to save the budget?",
+            "tipo_unidade": "Do you want to save the unit type?",
+            "tipo_profissional": "Do you want to save the professional type?",
+            "unidade_aps": "Do you want to save the primary care unit?",
+            "agendar_importacao": "Do you want to schedule the import?",
+            "usuario_atualizar_dados": "Do you want to update your data?",
+            "alterar_senha": "Do you want to change your password?",
+            "solicitar_estimativa": "Do you want to request this estimate?"
+        },
+        "atualizar": {
+            "usuario": "Do you want to update the user?"
+        },
+        "deletar": {
+            "bairro": "Do you want to delete the neighborhood?",
+            "cidade": "Do you want to delete the city?",
+            "estado": "Do you want to delete the state?",
+            "especialidade": "Do you want to delete the specialty?",
+            "estimativa": "Do you want to delete the estimate?",
+            "indicador": "Do you want to delete the indicator?",
+            "orcamento": "Do you want to delete the budget?",
+            "metrica": "Do you want to delete the metric?",
+            "parametro_otimizacao": "Do you want to delete the parameter?",
+            "estatistica_unidade": "Do you want to delete the unit statistic?",
+            "atendimento_agregado": "Do you want to delete the aggregated visit?",
+            "demanda_profissional": "Do you want to delete the professional demand?",
+            "profissional": "Do you want to delete the professional {{nome}}?",
+            "tipo_unidade": "Do you want to delete the unit type {{nome}}?",
+            "tipo_profissional": "Do you want to delete the professional type '{{nome}}'?",
+            "unidade_aps": "Do you want to delete the primary care unit {{nome}}?",
+            "ususario": "Do you want to delete the user {{nome}}?"
+        }
+        },
+
+  
+        "sucesso": {
+        "salvar": {
+            "bairro": "Neighborhood saved successfully!",
+            "cidade": "City saved successfully!",
+            "estado": "State saved successfully!",
+            "especialidade": "Specialty saved successfully!",
+            "estimativa": "Estimate saved successfully!",
+            "estatistica_unidade": "Unit statistic saved successfully!",
+            "atendimento": "Aggregated visit saved successfully!",
+            "demanda_profissional": "Professional demand saved successfully!",
+            "profissional": "Professional saved successfully!",
+            "parametro": "Parameter saved successfully!",
+            "atendimento_agregado": "Aggregated visit saved successfully!",
+            "indicador": "Indicator saved successfully!",
+            "orcamento": "Budget saved successfully!",
+            "metrica": "Metric saved successfully!",
+            "unidade_aps": "Primary care unit saved successfully!",
+            "tipo_profissional": "Professional type saved successfully!",
+            "importacao": "Import scheduled successfully!",
+            "minha_conta": "Data saved successfully!",
+            "senha": "Password changed successfully!",
+            "usuario": "User updated successfully!",
+            "solicitacao_estimativa": "Estimate request submitted successfully!",
+            "otimizacao": "Data saved successfully!",
+            "tipo_unidade": "Unit type saved successfully!"
+        },
+        "deletar": {
+            "bairro": "Neighborhood deleted successfully!",
+            "cidade": "City deleted successfully!",
+            "estado": "State deleted successfully!",
+            "atendimento_agregado": "Aggregated visit deleted successfully!",
+            "indicador": "Indicator deleted successfully!",
+            "orcamento": "Budget deleted successfully!",
+            "parametro_otimizacao": "Optimization parameter deleted successfully!",
+            "tipo_unidade": "Unit type deleted successfully!",
+            "usuario": "User deleted successfully!",
+            "especialidade": "Specialty deleted successfully!",
+            "estatistica_unidade": "Unit statistic deleted successfully!",
+            "estimativa": "Estimate deleted successfully!",
+            "metrica": "Metric deleted successfully!",
+            "demanda_profissional": "Professional demand deleted successfully!",
+            "profissional": "Professional deleted successfully!",
+            "tipo_profissional": "Professional type deleted successfully!",
+            "unidade_aps": "Primary care unit deleted successfully!"
+        }
+        },
+
+  
+        "erros": {
+            "erro_salvar_registro": "Error saving record. Please try again!",
+            "erro_localizar_registro": "Error locating record. Please try again!",
+            "erro_tente_novamente": "Error. Please try again!",
+            "erro_deletar": "Error deleting record. Please try again!",
+            "erro_carregar_daddos": "Error loading data. Please try again later!",
+            "erro_carregar_daddos2": "Error loading data. Please try again!",
+            "erro_carregar_daddos3": "Error loading data",
+            "erro_solicitacao": "Error processing request. Please try again!",
+            "erro_usuario_sem_autorizacao": "User is not authorized to perform this action",
+            "area_nao_demarcada": "The neighborhood area has not been demarcated",
+            "ano_invalido": "Error: The 'year' field must contain a valid year",
+            "ano_fora_intervalo": "Error: The 'year' field must be between 1990 and {{anoMax}}",
+            "quantidade_invalida": "Error: The 'quantity' field must contain a valid integer",
+            "erro_mensagem": "Error: {{errorMessage}}",
+            "codigo_cidade_nao_encontrado": "User's city code was not found",
+            "erro_carregar_metricas": "Error loading metrics",
+            "sem_resposta_servidor": "No response received from server",
+            "configuracao_requisicao": "Error configuring request",
+            "erro_desconhecido": "Unknown error",
+            "erro_buscar_dados": "An unknown error occurred while fetching data",
+            "erro_autenticacao": "Authentication error",
+            "credencial_invalida": "Invalid credential",
+            "erro_enviar_arquivo": "Error uploading file. Please try again!",
+            "erro_soma_peso": "Error: The 'year' field must be between 1990 and {{anoMax}}"
+        },
+
+  
+        "botoes_crud": {
+            "adicionar": "Add",
+            "editar": "Edit",
+            "deletar": "Delete",
+            "sim_deletar": "Yes, delete!",
+            "sim_salvar": "Yes, save!",
+            "sim_atualizar": "Yes, update!",
+            "sim_solicitar": "Yes, request!",
+            "sim_alterar": "Yes, change!",
+            "cancelar": "Cancel",
+            "sim_remover": "Yes, remove!",
+            "nao_manter_todas": "No, keep all",
+            "ok": "OK",
+            "voltar": "Back",
+            "solicitar": "Request",
+            "salvar": "Save",
+            "otimizar": "Optimize",
+            "confirmar": "Confirm"
+        },
+
+  
+        "tabelas": {
+            "acoes": "Actions"
+        },
+
+        "outros": {
+            "bairro": {
+                "interseccao1": "Intersection based on the total area of one or more neighborhoods is not allowed.",
+                "area_nao_demarcada": "The neighborhood area has not been demarcated"
+            },
+            "acao_nao_desfeita": "This action cannot be undone"
+        },
+
+        "titulos": {
+            "atencao": "Attention",
+            "erro_validacao": "Validation Error"
+        },
+
+        "usuarios-roles": {
+            "administrador": "Administrator",
+            "funcionario_estadual": "State Employee",
+            "funcionario_municipal": "Municipal Employee",
+            "gestor_estadual": "State Manager",
+            "gestor_municipal": "Municipal Manager",
+            "pesquisador": "Researcher"
+        },
+    
+  
+        "tutorial": {
+            "regiao": "Region",
+            "estado": "State",
+            "municipio": "Municipality",
+            "nordeste": "Northeast",
+            "pernambuco": "Pernambuco",
+            "selecionar_todas": "Select All",
+            "unidade_basica_saude": "Basic Health Unit",
+            "policlinica": "Polyclinic",
+            "hospital": "Hospital",
+            "unidade_saude_a": "Health Unit A",
+            "integral": "Full-time",
+            "policlinica_b": "Polyclinic B",
+            "manha_tarde": "Morning and Afternoon",
+            "hospital_c": "Hospital C",
+            "unidade_saude_d": "Health Unit D",
+            "policlinica_e": "Polyclinic E",
+            "hospital_f": "Hospital F",
+            "unidades": "Units - ",
+            "ver_detalhes_municipio": "View municipality details",
+            "selecionar_tipo_unidade": "Here you can select each unit type individually.",
+            "unidades2": "Units",
+            "mapa": "Map",
+            "bem_vindo": "Welcome to the SmartApSUS Tutorial! Let’s explore the interactive map.",
+            "regioes_brasil": "Here you can see Brazil’s different regions highlighted on the map.",
+            "explorar_estados": "To explore states within a region, **double-click** on the map. Let’s start with the Northeast region.",
+            "regiao_nordeste": "This is the Northeast region. Here you can explore more details of each state in this region.",
+            "estado_pernambuco": "For example, by *clicking once* on Pernambuco, we can view its data.",
+            "exemplo_pernambuco": "Continuing with Pernambuco, you can explore its municipalities by **double-clicking** on it.",
+            "municipios_pernambuco": "Now you can see Pernambuco’s municipalities. Clicking a municipality shows its related data.",
+            "municipio_recife": "For example, click on Recife to see more detailed information.",
+            "painel_configuracoes": "Before we discuss unit selection, note you can open or close the settings panel (modal). Click the button below to open it.",
+            "multi_select": "Now, with the modal open, let’s learn how to multi-select APS Unit Types within Recife.",
+            "tipo_unidades_aps": "You can select all APS Unit Types at once by clicking 'Select All', or choose individual units like Basic Health Unit, Polyclinic, or Hospital.",
+            "popup_unidade": "Now, when you click a marker on the map, a popup will appear with detailed unit information. Let’s demonstrate by automatically opening Hospital C’s popup.",
+            "agradecimento": "Thank you for participating in the tutorial!",
+            "norte": "North",
+            "sudeste": "Southeast",
+            "sul": "South",
+            "centro_oeste": "Central-West",
+            "proximo": "Next",
+            "anterior": "Previous",
+            "concluir": "Finish",
+            "todas": "All",
+            "ubs": "Basic Health Units",
+            "selecionar_regiao": "Select a region to view units.",
+            "numero_unidades": "Number of units",
+            "numero_profissionais": "Number of professionals",
+            "tipo_unidade": "Unit type",
+            "turno_atendimento": "Service shift",
+            "ver_detalhes_unidade": "View unit details",
+            "placeholder_selecione_unidade": "Select Units",
+            "areas": "Areas"
+        },
+
+  
+        "layout": {
+            "sobre": "About",
+            "entrar": "Sign In",
+            "minha_conta": "My Account",
+            "alterar_senha": "Change Password",
+            "token": "Token",
+            "mapa": "Map",
+            "indicadores": "Indicators",
+            "otimizacao": "Optimization",
+            "alocacao_unidade": "Unit Allocation",
+            "distribuicao_profissionais": "Professional Distribution",
+            "estimativa_demanda": "Demand Estimate",
+            "cidade": "City",
+            "unidade_aps": "Primary Care Unit",
+            "configuracoes": "Settings",
+            "areas": "Areas",
+            "estados": "States",
+            "cidades": "Cities",
+            "bairros": "Neighborhoods",
+            "atendimentos_agregados": "Aggregated Visits",
+            "unidades_aps": "Primary Care Units",
+            "demandas_profissionais": "Professional Demands",
+            "tipos_profissionais": "Professional Types",
+            "profissionais": "Professionals",
+            "especialidades": "Specialties",
+            "parametros": "Parameters",
+            "metricas": "Metrics",
+            "tipo_estimativa_demanda": "Demand Estimate Type",
+            "importacoes": "Imports",
+            "estatisticas": "Statistics",
+            "orcamentos": "Budgets",
+            "sistema": "System",
+            "usuarios": "Users",
+            "sair": "Sign Out",
+            "rota_nao_encontrada": "Route not found!"
+        },
+
+  
+        "components": {
+            "meses": {
+                "mes_1": "January",
+                "mes_2": "February",
+                "mes_3": "March",
+                "mes_4": "April",
+                "mes_5": "May",
+                "mes_6": "June",
+                "mes_7": "July",
+                "mes_8": "August",
+                "mes_9": "September",
+                "mes_10": "October",
+                "mes_11": "November",
+                "mes_12": "December"
+            },
+            "regioes": "Regions",
+            "brasil": "Brazil",
+            "estados": "States",
+            "municipios": "Municipalities",
+            "setores censitários": "Census Sectors",
+            "ver_detalhes_municipio": "View municipality details",
+            "reiniciar_tour": "Restart Tour",
+            "areas": "Areas",
+            "numero_unidades": "Number of units",
+            "numero_profissionais": "Number of professionals",
+            "instrucoes": "Instructions",
+            "mapa_instrucoes1": "Click the draw button in the top-right corner of the map to start demarcating an area.",
+            "mapa_instrucoes2": "To draw a polygon, click successive points on the map to create the vertices of your area.",
+            "mapa_instrucoes3": "Finish drawing by clicking the first point again or double-click to close the shape automatically.",
+            "selecionar_tudo": "Select All",
+            "selecione_ano": "Select year",
+            "maximo": "Maximum",
+            "selecione": "Select",
+            "placeholder_nome": "Name",
+            "placeholder_codigo": "Code",
+            "erro_cep_fora_area": "ZIP code outside user area",
+            "cep_invalido": "Invalid ZIP code or lookup error",
+            "cep_invalido2": "Error fetching address. Invalid ZIP code.",
+            "atendimento": "Visit",
+            "mapa_1": "A double-click on the map adds or moves the APS unit marker to the desired location.",
+            "mapa_2": "You can also move the marker by clicking and dragging it to the new location.",
+            "carregando": "Loading...",
+            "pontos_vermelhos": "Red dots: estimated values",
+            "ver_valores_originais": "View original values",
+            "normalizar_dados": "Normalize data",
+            "nenhum_dado_atendimento": "No visit data available to display the chart.",
+            "falha_carregar_estados": "Failed to load states",
+            "falha_carregar_municipios": "Failed to load municipalities",
+            "falha_carregar_setores": "Failed to load census sectors",
+            "selecione_regiao_unidades": "Select a region to view the units.",
+            "desmarcar_todas": "Deselect All",
+            "selecionar_todas": "Select All",
+            "selecione_tipo_unidade": "Select APS Unit Types",
+            "clique_para_exibir_info": "Click once to display information.",
+            "clique_dois_vezes_expandir": "Double-click to expand the mesh.",
+            "nome": "Name",
+            "cnes2": "CNES",
+            "endereco2": "Address",
+            "nao_informado": "N/A",
+            "cep2": "ZIP",
+            "unidades": "Units",
+            "unidadeAPS": "APS Unit",
+            "historico_atendimentos": "Visit History by APS Unit (Including Estimate)",
+            "nota": "Note",
+            "area_vermelha": "The red area and red dots indicate estimated values.",
+            "unidades2": "Units - ",
+            "mapa": "Map",
+            "pode_remover": "Can be removed",
+            "centro": "Center",
+            "unidade": "Unit",
+            "custo": "Cost",
+            "capacidade_maxima": "Maximum population coverage capacity",
+            "remover": "Remove",
+            "quadro_atual": "Current Framework",
+            "novo_quadro": "New Framework",
+            "diferenca": "Difference",
+            "nenhum_registro_encontrado": "No records found.",
+            "anterior": "Previous",
+            "proximo": "Next",
+            "selecionar": "Select",
+            "atualizar": "Update",
+            "fechar": "Close",
+            "atencao": "Attention",
+            "filtrar_unidade_aps": "Filter APS Units",
+            "totalRegistros": "Total records: {{total}}",
+            "voltar": "Back",
+            "paginaDe": "Page {{pagina}} of {{total}}",
+            "atualizar_cadastro": "Update registration",
+            "irParaPerfilMunicipio1": "Go to municipality profile ",
+            "irParaPerfilMunicipio2": "Go to the profile of {{nomeCidade}}",
+            "atendimento_por_unidade": "Visits per APS Unit",
+            "mes": "Month",
+            "atendimentos": "Visits",
+            "selecione_outras_unidades": "Select other APS units:",
+            "descricao_remover_do_grafico1": "Click the APS unit name with [x] to remove it from the chart",
+            "descricao_remover_do_grafico2": "Click the city name with [x] to remove it from the chart",
+            "placeholder_digite_selecione_unidade": "Type or select an APS unit...",
+            "nenhum_dado_exibir_grafico": "No data available to display the chart.",
+            "indice_municipal": "Municipal Index",
+            "indice_estadual": "State Index",
+            "indice_nacional": "National Index",
+            "media_municipal": "Municipal Average",
+            "media_estadual": "State Average",
+            "media_nacional": "National Average",
+            "atendimentos_populacao": "Visits per Population",
+            "quantidade_profissionais": "Number of Professionals",
+            "atendimentos_outras_unidades": "Visits (Other Municipal Units)",
+            "n_de_unidades": "# of Units",
+            "tipo_atendimento": "Visit Type",
+            "especialidade": "Specialty",
+            "tipo_unidade": "Unit Type:",
+            "ver_detalhes_unidade": "View unit details",
+            "cnes": "CNES:",
+            "desmarcar_tudo": "Deselect all",
+            "marcar_todos": "Select all",
+            "endereco": "Address:",
+            "cep": "ZIP:",
+            "ir_perfil_unidade_aps": "Go to APS unit profile",
+            "ir_perfil_municipio": "Go to municipality profile",
+            "atendimentos_outras_cidades": "Visits (Other Cities)",
+            "selecione_outras_cidades": "Select other cities:",
+            "placeholder_digite_selecione_cidade": "Type or select a city...",
+            "unidade_fora_municipio": "Unit outside the municipality area",
+            "desconhecido": "Unknown",
+            "tipo_desconhecido": "Unknown Type",
+            "graficos": "Charts",
+            "tabelas": "Tables",
+            "graficos_tabelas": "Charts and Tables",
+            "lista_unidades_fora_municipio": "The following units are outside municipality boundaries:",
+            "nenhuma_unidade_fora_area": "No units outside the area.",
+            "titulo_atendimentos_media_estadual_nacional": "Visits (APS Unit vs. State and National Averages)",
+            "selecione_tipos_unidades_exibidos": "Select APS unit types to display:",
+            "placeholder_pesquisar": "Search",
+            "quantidade": "Quantity",
+            "cancelar_demarcacao": "Cancel demarcation",
+            "cancelar": "Cancel",
+            "finalizar_demarcacao": "Finish demarcating the neighborhood area",
+            "finalizar": "Finish",
+            "apagar_ultimo_ponto": "Remove the last drawn point",
+            "comecar_desenho": "Click to start drawing the neighborhood area",
+            "continuar_desenho": "Click to continue drawing the neighborhood area",
+            "fechar_area": "Click the first point to close the demarcated area",
+            "salvar_alteracoes": "Save changes",
+            "salvar": "Save",
+            "cancelar_edicao": "Cancel editing, discarding all changes",
+            "limpar_layers": "Clear all layers",
+            "limpar_tudo": "Clear everything",
+            "editar_area": "Edit demarcated area",
+            "editar_area_desabilitado": "No demarcated area to edit",
+            "apagar_area": "Delete area",
+            "apagar_area_desabilitado": "No demarcated area to delete",
+            "arraste_para_alterar": "Drag the handles to modify the demarcated area",
+            "cancelar_para_desfazer": "Click cancel to undo changes.",
+            "clique_para_remover": "Click an area to remove it, then click Save.",
+            "erro_area_fora_limites": "The drawn area is completely outside municipality limits",
+            "erro_calculo_intersecao": "Error calculating intersection.",
+            "aproximar": "Zoom In",
+            "afastar": "Zoom Out",
+            "centralizar_area": "Center on the demarcated area",
+            "erro_area_nao_definida_cidade": "Error: No area defined for the city.",
+            "demarcar_area": "Demarcate area",
+            "remover_tudo": "Remove All",
+            "mostrar_tipos_selecionados": "Show selected types",
+            "ocultar_tipos_selecionados": "Hide selected types",
+            "digite_selecione_tipo": "Type or select a type...",
+            "nenhuma_opcao_disponivel": "No options available",
+            "selecione_tipo_atendimento": "Select visit types:",
+            "sim": "Yes",
+            "nao": "No",
+            "metric_weights_soma_peso": "The sum of weights must be 100% (currently: {{total}}%)",
+            "metric_weights_descricao": "Assign weights to metrics (sum must be 100%)"
+        },
+ 
+  
+  
+    "pages": {
+      "not-found": {
+            "titulo": "404 - Page not found",
+            "mensagem": "The page you are looking for does not exist.",
+            "voltar": "Back to home page"
+        },
+
+        "minha_conta": {
+            "titulo": "My Account",
+            "alterar_senha": "Change Password",
+            "nome": "Name",
+            "mensagem_nome": "Enter the name",
+            "email": "Email",
+            "mensagem_email": "Enter the access email",
+            "cargo": "Position",
+            "mensagem_cargo": "Enter the position",
+            "funcao": "Role",
+            "mensagem_funcao": "Enter the role",
+            "area_estudo": "Field of Study",
+            "area_nao_definida": "Area not defined",
+            "ativo": "Active",
+            "tipo_usuario": "User Type",
+            "data_cadastro": "Registration Date",
+            "aviso_desativacao": "If your user is deactivated, you will not be able to access the system. Only an administrator can reactivate your account."
+        },
+ 
+  
+        "configuracoes-areas-bairro-EditarID": {
+            "bairroCoberto": "The neighborhood \"{{bairro}}\" was fully covered by the new area!",
+            "bairrosCobertos": "The neighborhoods ({bairros}) were fully covered by the new area!",
+            "redefinirAreaBairro": "You must reset the area of this neighborhood individually before continuing.",
+            "redefinirAreaBairros": "You must reset the area of each of these neighborhoods individually before continuing.",
+            "bairroDividido": "The neighborhood \"{{bairro}}\" was improperly split into multiple areas! Each neighborhood must be represented by a single continuous region.",
+            "bairrosDivididos": "One or more neighborhoods were improperly split into multiple areas! Each neighborhood must be represented by a single continuous region.",
+            "areaInterceptaBairro": "The new area intersects with the neighborhood {{bairro}}.",
+            "areaInterceptaBairros": "The new area intersects with {{quantidade}} neighborhoods ({bairros}).",
+            "interseccaoParteBairro": "The intersecting area will become part of the neighborhood being edited and the other neighborhood’s area will be adjusted.",
+            "interseccaoParteBairros": "The intersecting area will become part of the neighborhood being edited and the areas of the other neighborhoods will be adjusted.",
+            "selecioneEstado": "Select state",
+            "mensagemSelecioneEstado": "Select a state",
+            "selecioneCidade": "Select city",
+            "mensagemSelecioneCidade": "Select a city",
+            "nomeBairro": "Neighborhood name",
+            "mensagemNomeBairro": "Enter the neighborhood name",
+            "mapa": "Map"
+        },
+
+        "configuracoes-areas-bairro-Index": {
+            "bairro": "Neighborhood",
+            "cidade": "City",
+            "estado": "State"
+        },
+
+        "configuracoes-areas-cidade-EditarID": {
+            "nome_cidade": "City name",
+            "mensagem_nome_cidade": "Enter the city name",
+            "codigo_ibge": "IBGE code",
+            "mensagem_codigo_ibge": "Enter the IBGE code",
+            "selecione_estado": "Select state",
+            "mensagem_selecione_estado": "Select a state"
+        },
+
+  
+        "configuracoes-areas-cidade-Index": {
+            "nome": "Name",
+            "codigo_ibge_cidade": "City IBGE Code",
+            "estado": "State"
+        },
+
+        "configuracoes-areas-estado-EditarID": {
+            "nome": "Name",
+            "sigla": "Abbreviation",
+            "codigo_ibge": "IBGE Code",
+            "digite_nome_estado": "Enter the state name",
+            "digite_sigla_estado": "Enter the state abbreviation",
+            "digite_codigo_ibge": "Enter the IBGE code",
+            "selecione_regiao": "Select region"
+        },
+
+        "configuracoes-areas-estado-Index": {
+            "estado": "State",
+            "sigla": "Abbreviation",
+            "regiao": "Region"
+        },
+
+        "atendimentoAgregado-EditarID": {
+            "selecione_estado": "Select state",
+            "mensagem_selecione_estado": "Select a state",
+            "selecione_cidade": "Select city",
+            "mensagem_selecione_cidade": "Select a city",
+            "selecione_unidade_aps": "Select APS unit",
+            "ano": "Year",
+            "mensagem_digite_ano": "Enter the year",
+            "mes": "Month",
+            "mensagem_selecione_mes": "Select a month",
+            "janeiro": "January",
+            "fevereiro": "February",
+            "marco": "March",
+            "abril": "April",
+            "maio": "May",
+            "junho": "June",
+            "julho": "July",
+            "agosto": "August",
+            "setembro": "September",
+            "outubro": "October",
+            "novembro": "November",
+            "dezembro": "December",
+            "quantidade": "Quantity",
+            "mensagem_digite_quantidade": "Enter the number of visits",
+            "informe_tipo_atendimento": "Provide the visit type",
+            "mensagem_selecione_tipo_atendimento": "Select a visit type"
+        },
+
+  
+        "atendimentoAgregado-Index": {
+            "cidade": "City",
+            "cnes": "CNES",
+            "unidade_aps": "APS Unit",
+            "ano": "Year",
+            "mes": "Month",
+            "quantidade": "Quantity",
+            "tipo": "Type"
+        },
+
+        "demandaProfissional-EditarID": {
+            "selecione_estado": "Select state",
+            "selecione_um_estado": "Select a state",
+            "selecione_cidade": "Select city",
+            "selecione_uma_cidade": "Select a city",
+            "selecione_unidade_aps": "Select APS unit",
+            "demanda_padrao_unidades_cidade": "Default demand for city units",
+            "selecione_tipo_profissional": "Select professional type",
+            "selecione_um_tipo_profissional": "Select a professional type",
+            "carga_horaria_maxima": "Maximum working hours",
+            "digite_carga_horaria": "Enter the working hours",
+            "quantidade_maxima_profissionais": "Maximum number of professionals",
+            "digite_quantidade_maxima_profissionais": "Enter the maximum number of professionals",
+            "quantidade_minima_profissionais": "Minimum number of professionals",
+            "digite_quantidade_minima_profissionais": "Enter the minimum number of professionals"
+        },
+
+        "demandaProfissional-Index": {
+            "estado": "State",
+            "cidade": "City",
+            "unidade_aps": "APS Unit",
+            "tipo_profissional": "Professional Type",
+            "carga_horaria_maxima": "Max. Working Hours",
+            "quantidade_minima_profissionais": "Min. # Professionals",
+            "quantidade_maxima_profissionais": "Max. # Professionals"
+        },
+
+  
+        "especialidade-EditarID": {
+            "nome": "Name",
+            "codigo": "Code",
+            "mensagem_nome": "Enter the specialty name",
+            "mensagem_codigo": "Enter the code"
+        },
+
+        "especialidade-Index": {
+            "nome": "Name",
+            "codigo": "Code"
+        },
+
+        "estatisticaUnidade-EditarID": {
+            "nome": "Name",
+            "mensagemNome": "Enter the unit statistic name",
+            "tipo": "Type",
+            "mensagemTipo": "Enter the type",
+            "periodicidade": "Frequency",
+            "mensagemPeriodicidade": "Enter the frequency"
+        },
+
+        "estatisticaUnidade-Index": {
+            "nome": "Name",
+            "tipo": "Type",
+            "periodicidade": "Frequency",
+            "acoes": "Actions"
+        },
+
+        "estimativaDemanda-ID": {
+            "nome": "Name",
+            "tipo": "Type",
+            "mensagemNome": "Enter the demand estimate name",
+            "mensagemTipo": "Enter the type"
+        },
+
+        "estimativaDemanda-Index": {
+            "nome": "Name",
+            "tipo": "Type"
+        },
+      
+  
+        "estimativaUnidade-DetalhesID": {
+            "usuario_solicitante": "Requesting User",
+            "data_emissao": "Issuance Date",
+            "estado": "State",
+            "cidade": "City",
+            "janela_historica": "Historical Window (months)",
+            "janela_predicao": "Prediction Window (months)",
+            "tipo_atendimento": "Visit Type",
+            "aspecto_socioeconomico": "Socioeconomic Aspect",
+            "porcentagem_levar_em_consideracao": "Percentage to Take into Account",
+            "unidade_aps": "APS Unit",
+            "cnes": "CNES",
+            "tipo_unidade": "Unit Type",
+            "data_estimativa": "Estimate Date",
+            "estimativa": "Estimate",
+            "informacoes_chamada_algoritmo": "Algorithm Call Information",
+            "carregando_informacoes": "Loading information...",
+            "historico_atendimentos": "Visit History",
+            "dados_estimativas_geradas": "Generated Estimate Data",
+            "nenhum_dado_exibir": "No data to display",
+            "nao_ha_informacoes_disponiveis": "No information available or analysis not yet conclusive."
+        },
+
+        "estimativaUnidade-INDEX": {
+            "nome": "Name",
+            "data_agendada": "Scheduled Date",
+            "data_conclusao": "Completion Date",
+            "mensagem": "Message",
+            "status": "Status",
+            "pendente": "Pending",
+            "finalizado": "Completed",
+            "erro": "Error",
+            "em_processamento": "Processing",
+            "detalhes": "Details"
+        },
+
+        "estimativaUnidade-ID": {
+            "estado": "State",
+            "selecione_estado": "Select State",
+            "municipio": "Municipality",
+            "selecione_municipio": "Select Municipality",
+            "unidade_aps": "APS Unit",
+            "selecione_unidade": "Select Unit",
+            "periodo_previsao": "Forecast Period",
+            "selecione_periodo_previsao": "Select Forecast Period",
+            "proximo_mes": "Next Month",
+            "tipo_atendimentos": "Visit Types",
+            "selecione_tipo_atendimento": "Select Visit Type to Filter",
+            "todos": "All"
+        },
+
+  
+        "importar-ID": {
+            "tipo": "Type",
+            "selecione_opcao": "Select an option",
+            "csv": "CSV",
+            "geojson": "GeoJSON",
+            "ibge": "IBGE",
+            "entidade": "Entity",
+            "selecione_entidade": "Select the entity to import",
+            "profissional": "Professional",
+            "tipo_profissional": "Professional Type",
+            "vinculo_profissional": "Professional Affiliation",
+            "atendimento_agregado": "Aggregated Visit",
+            "atendimento_domiciliar": "Home Visit",
+            "especialidade": "Specialty",
+            "tipo_unidade_aps": "APS Unit Type",
+            "unidade_aps": "APS Unit",
+            "atendimento_aps": "APS Visit",
+            "configuracao_otimizacao": "Optimization Configuration",
+            "estatistica": "Statistic",
+            "estatistica_produzida_unidade": "Statistic Produced by Unit",
+            "indicador_unidade": "Unit Indicator",
+            "metrica": "Metric",
+            "orcamento": "Budget",
+            "estimativa_unidade": "Unit Estimate",
+            "localidade": "Location",
+            "estado": "State",
+            "regiao": "Region",
+            "municipio": "Municipality",
+            "modelo_para_download": "Template for Download",
+            "clique_baixar_arquivo": "Click to download the file",
+            "selecione_estado": "Select state",
+            "selecione_um_estado": "Select a state",
+            "todos": "All",
+            "url_entidade": "Entity URL",
+            "digite_url_entidade": "Enter the entity call URL",
+            "url_malha": "Mesh URL",
+            "digite_url_malha": "Enter the entity mesh call URL",
+            "arquivo": "File",
+            "faca_upload_arquivo": "Upload the file"
+        },
+
+        "importar-Index": {
+            "formato": "Format",
+            "entidade": "Entity",
+            "data_agendada": "Scheduled Date",
+            "data_conclusao": "Completion Date",
+            "mensagem": "Message",
+            "status": "Status",
+            "pendente": "Pending",
+            "finalizado": "Completed",
+            "erro": "Error",
+            "em_processamento": "Processing"
+        },
+      
+  
+        "indicadorPerformance-EditarID": {
+            "indicador": "Indicator",
+            "periodicidade": "Frequency",
+            "digite_nome_indicador": "Enter the performance indicator name",
+            "digite_periodicidade": "Enter the frequency"
+        },
+
+        "metrica-EditarID": {
+            "nome": "Name",
+            "mensagem_nome": "Enter the metric name",
+            "detalhes": "Details",
+            "mensagem_detalhes": "Enter the details",
+            "valor_inverso": "Inverse Value",
+            "mensagem_valor_inverso": "Enter the inverse value"
+        },
+
+        "metrica-Index": {
+            "nome": "Name",
+            "detalhes": "Details",
+            "acoes": "Actions"
+        },
+
+        "configuracoes-tipoUnidade-EditarID": {
+            "nome": "Name",
+            "codigo": "Code",
+            "digite_nome": "Enter name",
+            "digite_codigo": "Enter code"
+        },
+
+        "configuracoes-tipoUnidade-Index": {
+            "adicionar": "Add",
+            "nome": "Name",
+            "codigo": "Code",
+            "acoes": "Actions"
+        },
+
+        "configuracoes-tipoProfissional-Index": {
+            "nome": "Name",
+            "codigo": "Code",
+            "acoes": "Actions"
+        },
+
+        "configuracoes-tipoProfissional-EditarID": {
+            "nome": "Name",
+            "digite_nome": "Enter name",
+            "codigo": "Code",
+            "digite_codigo": "Enter code"
+        },
+
+        "configuracoes-profissional-EditarID": {
+            "nome": "Name",
+            "digite_nome": "Enter name",
+            "cpf_ou_cnpj": "CPF or CNPJ",
+            "digite_cpf_ou_cnpj": "Enter CPF or CNPJ",
+            "tipo": "Type",
+            "selecione_opcao": "Select an option",
+            "pessoa_fisica": "Individual",
+            "pessoa_juridica": "Legal Entity",
+            "codigo_conselho_classe": "Professional Council Code",
+            "digite_codigo_conselho": "Enter the professional council code",
+            "registro_conselho_classe": "Professional Council Registration",
+            "digite_registro_conselho": "Enter the professional council registration",
+            "cns": "CNS",
+            "digite_cns": "Enter the CNS"
+        },
+
+        "configuracoes-profissional-Index": {
+            "nome": "Name",
+            "cpf_cnpj": "CPF/CNPJ",
+            "codigo_conselho_classe": "Professional Council Code",
+            "pessoa": "Person",
+            "juridica": "Legal Entity",
+            "fisica": "Individual",
+            "registro_conselho_classe": "Professional Council Registration",
+            "cns": "CNS"
+        },
+
+        "configuracoes-parametroOtimizacao-Index": {
+            "nome": "Name",
+            "tipo_dado": "Data Type",
+            "acoes": "Actions"
+        },
+
+        "configuracoes-parametroOtimizacao-EditarID": {
+            "nome": "Name",
+            "digite_nome_parametro": "Enter the optimization parameter name",
+            "tipo_dado": "Data Type",
+            "digite_tipo_dado": "Enter the data type"
+        },
+
+        "configuracoes-otimizacao-Index": {
+            "nome": "Name",
+            "data_agendada": "Scheduled Date",
+            "data_conclusao": "Completion Date",
+            "mensagem": "Message",
+            "status": "Status",
+            "pendente": "Pending",
+            "finalizado": "Completed",
+            "erro": "Error",
+            "detalhes": "Details"
+        },
+
+  
+        "configuracoes-unidadeAPS-EditarID": {
+            "dados_principais": "Main Data",
+            "endereco": "Address",
+            "erro_localizacao_nao_definida": "APS unit location has not been defined",
+            "erro_localizacao_fora_area": "APS unit location is outside the municipality area",
+            "erro_dados_tipo_unidade_aps": "Please provide all data for the new APS Unit Type (code and name)",
+            "erro_data_criacao_maior_atual": "The creation date of the APS Unit cannot be later than the current date",
+            "erro_cep_fora_area": "ZIP code outside the user area",
+            "erro_cidade_nao_cadastrada": "City not registered",
+            "erro_estado_nao_encontrado": "State not found",
+            "erro_busca_endereco_fora_regiao": "Error: Cannot fetch an address outside the user's region",
+            "erro_codigo_cidade_nao_encontrado": "User's city code was not found.",
+            "estadual": "State-level",
+            "municipal": "Municipal",
+            "nome": "Name",
+            "digite_nome_unidade": "Enter the unit name",
+            "tipo_unidade": "Unit Type",
+            "adicionar_novo_tipo_aps": "+ Add new APS Unit Type",
+            "cnes": "CNES",
+            "digite_cnes": "Enter the CNES",
+            "natureza_juridica": "Legal Nature",
+            "digite_natureza_juridica": "Enter the legal nature",
+            "grau_dependencia": "Dependency Level",
+            "digite_grau_dependencia": "Enter the dependency level",
+            "individual": "Individual",
+            "mantida": "Maintained",
+            "turno": "Shift",
+            "digite_turno": "Enter the service shift",
+            "gerencia": "Management",
+            "digite_gerencia": "Enter the primary care management",
+            "data_criacao": "Creation Date",
+            "cep": "ZIP Code",
+            "digite_cep": "Enter the ZIP code",
+            "selecione_estado": "Select state",
+            "selecione_cidade": "Select city",
+            "selecione_tipo_unidade": "Select a unit type",
+            "bairro": "Neighborhood",
+            "digite_bairro": "Enter the neighborhood",
+            "logradouro": "Street Address",
+            "digite_logradouro": "Enter the street address",
+            "numero": "Number",
+            "digite_numero": "Enter the number",
+            "complemento": "Complement",
+            "digite_complemento": "Enter the complement (if any)",
+            "referencia": "Reference",
+            "digite_referencia": "Enter a reference point",
+            "mapa": "Map",
+            "localizacao_fora_area": "Attention: The APS unit location is outside the municipality's geographic boundaries."
+        },
+
+        "configuracoes-unidadeAPSIndex": {
+            "cnes": "CNES",
+            "nome": "Name",
+            "tipo": "Type",
+            "bairro": "Neighborhood",
+            "cidade": "City",
+            "estado": "State",
+            "unidades_fora_limites": "Units outside identified geographic boundaries",
+            "mostrar_todas_unidades": "Show all units",
+            "mostrar_apenas_unidades_fora_area": "Show only units outside the area",
+            "atualize_localizacao_aps": "Update the APS unit location",
+            "msg_correcao_localizacao": "These units may require location review or correction in the system."
+        },
+
+        "otimizacao": {
+            "confirmar_agendamento": "Do you want to schedule the optimization?",
+            "info": "On this page you can configure the health unit optimization.",
+            "nenhuma_metrica_encontrada": "No metrics were found. The result cannot be generated.",
+            "campos_nao_preenchidos": "There are units with unfilled fields",
+            "unidades_fora_limite": "There are units outside the municipality boundary. Do you want to remove them?",
+            "mensagem_1": "The number of points of interest ({pontosInteresse}) must not exceed the total of existing units plus the new locations ({{total}}).",
+            "mensagem_2": "Population metric is essential to generate a reliable result.",
+            "mensagem_3": "The number of points of interest ({{pontosInteresse}}) must be at least the existing units ({{numeroUnidades}}).",
+            "mensagem_4": "Found {{numeroUnidades}} units outside the municipality area.",
+            "mapa": "Map",
+            "descricao": "Description",
+            "descreva_detalhes_solicitacao": "Describe the details of this optimization request",
+            "estado": "State",
+            "selecione_estado": "Select state",
+            "municipio": "Municipality",
+            "selecione_municipio": "Select municipality",
+            "metricas": "Metrics",
+            "selecione_metricas": "Select one or more metrics",
+            "tipo_problema": "Problem Type",
+            "selecione_tipo_problema": "Select a problem type",
+            "minimizar_distancia": "Minimize Distance",
+            "minimizar_custo": "Minimize Cost",
+            "pontos_interesse": "Points of Interest",
+            "informe_quantidade_pontos": "Enter the number of points of interest",
+            "tipo_unidade": "Unit Type",
+            "selecione_tipos_unidade": "Select one or more unit types",
+            "unidades_removidas": "{{count}} units were removed.",
+            "custo": "Cost",
+            "capacidade": "Capacity",
+            "unidade": "Unit",
+            "faltando": "Missing",
+            "e": " and ",
+            "erro_validacao": "Validation Error",
+            "pontos": "Points",
+            "dica_setores_censitarios": "After selecting the municipality, you can view census sectors on the map. Click each sector to select which will be used in the algorithm analysis.",
+            "setores_municipio": "Municipality Sectors",
+            "unidades_existentes": "Existing units",
+            "unidades_removiveis": "Existing units that can be removed",
+            "localidades_novas_unidades": "Locations for new units",
+            "dica_otimizar": "By clicking 'Optimize', the process will start in the background and you can monitor its progress on the optimization screen at any time."
+        },
+
+        "configuracoes-otimizacao-DetalhesID": {
+            "info": "On this page you can view the result of the health unit optimization.",
+            "estado": "State",
+            "municipio": "Municipality",
+            "pontos_interesse": "Points of Interest",
+            "informe_quantidade_pontos": "Enter the number of points of interest",
+            "status": "Status",
+            "distancia_min_ponderada": "Weighted minimum distance",
+            "informe_distancia_min_ponderada": "Enter the weighted minimum distance",
+            "alocacoes_feitas": "Allocations made",
+            "informe_num_localidades": "Enter the number of locations",
+            "num_centros": "Number of Centers",
+            "informe_num_centros": "Enter the number of centers",
+            "metricas": "Metrics",
+            "informe_metricas": "Enter the metrics",
+            "prioridades": "Priorities",
+            "informe_prioridades": "Enter the priorities",
+            "erro": "Error",
+            "mapa": "Map",
+            "pontos": "Points",
+            "setores_municipio": "Municipality Sectors",
+            "centros_fixos": "Fixed Centers",
+            "centros_adicionados": "Added Centers",
+            "dica_otimizar": "By clicking 'Optimize', the process will start in the background and you can monitor its progress on the optimization screen at any time.",
+            "dica_setores_censitarios": "After selecting the municipality, you can view census sectors on the map. Click each sector to select which will be used in the algorithm analysis."
+        },
+
+        "otimizacaoProfissionaisDetalhesId": {
+            "estado": "State",
+            "municipio": "Municipality",
+            "tipoUnidades": "Unit Types",
+            "especialidade": "Specialty",
+            "status": "Status",
+            "semAlteracao": "No change",
+            "aumento": "Increase",
+            "reducao": "Decrease",
+            "unidadeAps": "APS Unit",
+            "cnes": "CNES",
+            "tipoUnidade": "Unit Type",
+            "quadroAtual": "Current Staff",
+            "novoQuadro": "New Staff",
+            "mapa": "Map",
+            "distribuicaoProfissionais": "Distribution of professionals by health unit",
+            "clicarOtimizar": "By clicking 'Optimize', the process will start in the background and you can monitor its progress on the optimization screen.",
+            "bemVindo": "Welcome to the health professionals optimization tool. Here, you can view and analyze the distribution of professionals across different health units based on criteria such as state, municipality, unit type, and specialty. By entering this information, the algorithm will process the data and display on the map the current number of professionals in each unit, as well as an optimized projection after analysis. This allows strategic decisions to improve professional allocation and ensure more efficient care for the population."
+        },
+
+        "otimizacaoProfissionaisId": {
+            "cadastro": "Registration",
+            "realocacaoProfissionais": "Professional Reallocation",
+            "estado": "State",
+            "selecioneEstado": "Select state",
+            "municipio": "Municipality",
+            "selecioneMunicipio": "Select municipality",
+            "tipoUnidade": "Unit Type",
+            "selecioneTiposUnidade": "Select one or more unit types",
+            "especialidade": "Specialty",
+            "selecioneEspecialidade": "Select Specialty"
+        },
+
+        "otimizacaoProfissionaisIndex": {
+            "nome": "Name",
+            "dataAgendada": "Scheduled Date",
+            "dataConclusao": "Completion Date",
+            "mensagem": "Message",
+            "status": "Status",
+            "pendente": "Pending",
+            "finalizado": "Completed",
+            "erro": "Error",
+            "emProcessamento": "Processing",
+            "acoes": "Actions",
+            "detalhes": "Details"
+        },
+
+  
+        "logAutenticacao-Index": {
+            "usuario": "User",
+            "email": "Email",
+            "acao": "Action",
+            "ip": "IP",
+            "data_hora": "Date & Time"
+        },
+
+        "log-Index": {
+            "usuario": "User",
+            "acao": "Action",
+            "entidade": "Entity",
+            "ip": "IP",
+            "data_hora": "Date & Time"
+        },
+
+        "indicadorPerformance-Index": {
+            "indicador": "Indicator",
+            "periodicidade": "Frequency"
+        },
+
+        "recuperar-senha": {
+            "pageTitle": "Recover Password",
+            "headerDescription": "Discover essential information about your region, including Primary Health Care units, health professionals, and more.",
+            "emailLabel": "Enter the email linked to the system",
+            "resetButton": "Recover Password",
+            "invalidEmail": "Please enter the email linked to the system",
+            "errorMessage": "Error recovering password."
+        },
+
+        "recuperar-senha-sucesso": {
+            "successTitle": "Recovery token generated successfully!",
+            "successMessage": "<p>A recovery token has been generated and sent to the specified email.</p><br/><p>Please check your inbox and use the provided link to set a new password.</p>",
+            "goToLogin": "Go to Sign In",
+            "resetPassword": "Reset Password (for testing, retrieve the token from the database)"
+        },
+
+        "criar-conta-sucesso": {
+            "accountCreatedTitle": "Account created successfully!",
+            "accountCreatedMessage": "You can now log in to SmartAPSus to perform advanced operations.",
+            "goToLogin": "Go to Sign In"
+        },
+
+        "criar-conta": {
+            "headerDescription": "Discover essential information about your region, including Primary Health Care units, health professionals, and more.",
+            "createAccountTitle": "New Account",
+            "nomeLabel": "Name",
+            "emailLabel": "Email",
+            "passwordLabel": "Password",
+            "repetirSenhaLabel": "Repeat Password",
+            "showPassword": "show",
+            "hidePassword": "hide",
+            "termsOfUseLabel": "I declare that I have read and accept the Terms of Use",
+            "termsOfUseLink": "Terms of Use",
+            "criarContaButton": "Create Account",
+            "errorTerms": "You must read and accept the Terms of Use before creating an account",
+            "errorPasswordMismatch": "Password and confirmation do not match",
+            "errorCreateAccount": "Error creating account. {{errorMessage}}"
+        },
+
+        "pageLogin": {
+            "pageTitle": "Sign In",
+            "headerDescription": "Discover essential information about your region, including Primary Health Care units, health professionals, and more.",
+            "emailLabel": "Email",
+            "passwordLabel": "Password",
+            "rememberMe": "Remember me",
+            "forgotPassword": "Forgot Password",
+            "createAccount": "Create Account",
+            "loginButton": "Sign In",
+            "selectEmailTitle": "Select an email to log in",
+            "noSavedEmails": "No saved emails found.",
+            "otherAccountButton": "Other Account"
+        },
+
+        "redefinir-senha": {
+            "title": "Reset Password",
+            "newPasswordLabel": "Enter new password",
+            "repeatPasswordLabel": "Repeat new password",
+            "showPassword": "show",
+            "hidePassword": "hide",
+            "resetButton": "Reset Password",
+            "errorPasswordMismatch": "New password and confirmation do not match",
+            "errorResetPassword": "Error resetting password.",
+            "tokenInfo": "Recovery token (table 'auth_password_reset_token'):"
+        },
+
+        "redefinir-senha-sucesso": {
+            "successTitle": "New password set successfully!",
+            "successMessage": "You can now sign in to SmartAPSus to perform advanced operations.",
+            "goToLogin": "Go to Sign In"
+        },
+
+        "configuracoes-editar-usuarioID": {
+            "nome": "Name",
+            "digite_nome": "Enter the name",
+            "email": "Email",
+            "digite_email": "Enter the access email",
+            "cargo": "Position",
+            "digite_cargo": "Enter the position",
+            "funcao": "Role",
+            "digite_funcao": "Enter the role",
+            "tipo_usuario": "User Type",
+            "selecione_opcao": "Select an option",
+            "selecione_estado": "Select state",
+            "selecione_cidade": "Select city",
+            "ativo": "Active",
+            "data_cadastro": "Registration Date"
+        },
+
+        "configuracoes-usuarioIndex": {
+            "nome": "Name",
+            "email": "Email",
+            "cargo": "Position",
+            "funcao": "Role",
+            "area_estudo": "Field of Study",
+            "ativo": "Active",
+            "ativo_valor": "Active",
+            "inativo_valor": "Inactive"
+        },
+
+        "indicadores": {
+            "nome": "Name",
+            "estado": "State",
+            "cnes": "CNES",
+            "cidade": "City",
+            "bairro": "Neighborhood",
+            "municipio": "Municipality",
+            "unidade_saude": "Health Unit",
+            "placeholder_pesquisar": "Search for a Municipality or Health Unit"
+        },
+
+  
+        "estimativas-cidade-Index": {
+            "solicitacao": "Request",
+            "conclusao": "Completion",
+            "duracao": "Duration",
+            "cidades": "Cities",
+            "janela_predicao": "Prediction Window",
+            "status": "Status",
+            "pendente": "Pending",
+            "finalizado": "Completed",
+            "erro": "Error",
+            "em_processamento": "Processing",
+            "acoes": "Actions",
+            "detalhes": "Details"
+        },
+
+        "estimativas-cidade-detalhes-ID": {
+            "usuario_solicitante": "Requesting User",
+            "data_emissao": "Issuance Date",
+            "janela_predicao_meses": "Prediction Window (months)",
+            "tipo_atendimento": "Visit Type",
+            "cidades": "City(s)",
+            "cidade": "City",
+            "data": "Date",
+            "estimativa": "Estimate",
+            "carregando_informacoes": "Loading information...",
+            "nenhum_dado_exibir": "No data to display",
+            "sem_informacoes_disponiveis": "No information available or analysis not yet conclusive.",
+            "atendimentos_predicoes": "Visits and Predictions",
+            "estimativas_geradas": "Generated Estimates",
+            "informacoes_execucao": "Execution Information",
+            "resultados": "Results"
+        },
+
+        "estimativas-cidade-ID": {
+            "tipo_unidade": "Unit Type",
+            "selecione_tipos_unidade": "Select one or more unit types",
+            "estado": "State",
+            "selecione_estado": "Select State",
+            "cidades": "City(s)",
+            "selecione_cidades": "Select City(s)",
+            "periodo_previsao": "Forecast Period",
+            "selecione_periodo_previsao": "Select Forecast Period",
+            "proximo_mes": "Next Month",
+            "voltar": "Back",
+            "solicitar": "Request"
+        },
+
+  
+        "dashboard-municipio": {
+            "cards": {
+                "unidades": "Units",
+                "profissionais": "Professionals",
+                "tiposProfissionais": "Professional Types",
+                "atendimentos": "Visits",
+                "saneamento": "Sanitation (%)",
+                "coberturaVacinal": "Vaccination Cov. (%)"
+            },
+            "nome_unidade": "Unit Name",
+            "qtd_atendimentos_ano": "Visits This Year",
+            "media_mensal_atendimentos": "Average Monthly Visits",
+            "tipo_profissional": "Professional Type",
+            "quantidade_profissionais": "Number of Professionals",
+            "nome_unidade_aps": "APS Unit Name",
+            "populacao_demografia": "Population & Demographics",
+            "total": "Total",
+            "dados_nao_disponiveis": "Data not available",
+            "densidade_populacional": "Population Density",
+            "idade_materna": "Maternal Age",
+            "mortalidade": "Mortality",
+            "mortalidade_infantil": "Infant Mortality",
+            "natalidade": "Birth Rate",
+            "peso_ao_nascer": "Birth Weight",
+            "profissionais": "Professionals",
+            "profissionais_por_habitantes": "Professionals per Inhabitants",
+            "profissional_unidade": "Professionals per Unit",
+            "cobertura_agentes_indigenas": "Coverage of Indigenous Agents",
+            "cobertura_agentes_nao_indigenas": "Coverage of Non-Indigenous Agents",
+            "comparacao_cobertura_indigena_nao_indigena": "Indigenous/Non-Indigenous Coverage Comparison",
+            "orcamento_saude": "Health Budget",
+            "municipio": "Municipality",
+            "tipos_unidades": "Unit Types",
+            "atendimentosPorProfissionais": "Visits per Professionals",
+            "atendimentosPorOrcamento": "Visits per Budget",
+            "atendimentosPorPopulacao": "Visits per Population",
+            "atendimentos_por_tipo": "Visits by Type",
+            "atendimentos_versus_media_estadual_nacional": "Visits - {{nomeCidadeDashboard}} versus State and National Averages",
+            "total_atendimentos_versus_media_estadual_nacional": "Total Visits - {{nomeCidadeDashboard}} versus State and National Averages",
+            "total_atendimentos_versus_outras_cidades": "Total Visits - {{nomeCidadeDashboard}} versus Other Cities in the State",
+            "total_atendimentos_populacao_versus_outras_cidades": "Total Visits per Population - {{nomeCidadeDashboard}} versus Other Cities in the State",
+            "total_atendimentos_orcamento_versus_outras_cidades": "Total Visits per Budget - {{nomeCidadeDashboard}} versus Other Cities in the State",
+            "total_atendimentos_profissionais_versus_outras_cidades": "Total Visits per Professionals - {{nomeCidadeDashboard}} versus Other Cities in the State",
+            "unidades_aps": "APS Units",
+            "tipos_profissionais_por_unidade_aps": "Professional Types per APS Unit",
+            "mapa": "Map",
+            "carregando_grafico": "Loading chart...",
+            "nenhum_dado_para_grafico": "No data available to display the chart.",
+            "atencao_unidades_aps_fora_limites": "Attention: APS units outside municipality boundaries were identified.",
+            "visualizar_unidades": "View units",
+            "ir_para_grafico_atendimentos_por_tipo": "Go to Chart: Visits by Type",
+            "ir_para_grafico_tipos_de_unidades": "Go to Chart: Unit Types",
+            "ir_para_grafico_total_atendimentos_media_estadual_nacional": "Go to Chart: Total Visits - {{nomeCidadeDashboard}} versus State and National Averages",
+            "ir_para_grafico_total_atendimentos_populacao_indice_estadual_nacional": "Go to Chart: Total Visits per Population Index - {{nomeCidadeDashboard}} versus State and National Index",
+            "ir_para_grafico_total_atendimentos_outras_cidades": "Go to Chart: Total Visits - {{nomeCidadeDashboard}} versus Other Cities in the State {{nomeEstado}}",
+            "ir_para_grafico_total_atendimentos_populacao_outras_cidades": "Go to Chart: Total Visits per Population - {{nomeCidadeDashboard}} versus Other Cities in the State {{nomeEstado}}",
+            "ir_para_grafico_total_atendimentos_orcamento_outras_cidades": "Go to Chart: Total Visits per Budget - {{nomeCidadeDashboard}} versus Other Cities in the State {{nomeEstado}}",
+            "ir_para_grafico_total_atendimentos_profissionais_outras_cidades": "Go to Chart: Total Visits per Professionals - {{nomeCidadeDashboard}} versus Other Cities in the State {{nomeEstado}}",
+            "ir_para_tabela_unidades_aps": "Go to Table: APS Units",
+            "ir_para_tabela_tipos_profissionais_por_unidade_aps": "Go to Table: Professional Types per APS Unit",
+            "ir_para_tabela_tipos_profissionais_de": "Go to Table: Professional Types of {{nomeCidadeDashboard}}",
+            "tipos_profissionais_de": "Professional Types of {{nomeCidadeDashboard}}",
+            "selecione_ano": "Select Year:"
+        },
+
+        "configuracoes-orcamento-Index": {
+            "estado": "State",
+            "cidade": "City",
+            "unidade": "Unit",
+            "valor": "Value",
+            "ano": "Year",
+            "acoes": "Actions"
+        },
+
+        "configuracoes-orcamento-EditarID": {
+            "ano": "Year",
+            "mensagem_ano": "Enter the year",
+            "valor": "Budget Value (R$)",
+            "mensagem_valor": "Enter the value",
+            "unidade": "Unit",
+            "mensagem_unidade": "Enter the unit",
+            "detalhe_orcamento": "Budget Details",
+            "mensagem_detalhe_orcamento": "Enter the budget details",
+            "estado": "Select state",
+            "cidade": "Select city",
+            "mensagem_estado": "Select a state",
+            "mensagem_cidade": "Select a city",
+            "erro_campo_valor": "Error: The 'value' field must contain a valid value.",
+            "erro_campo_ano": "Error: The 'year' field must be between 1990 and {{anoAtual}}.",
+            "erro_campo_ano2": "Error: The 'year' field must contain a valid year.",
+            "erro_campo_valor_invalido": "The provided value is invalid"
+        },
+
+  
+        "dashboard-unidade-aps": {
+            "cards": {
+                "profissionais": "Professionals",
+                "tiposProfissionais": "Professional Types",
+                "atendimentos": "Visits",
+                "saneamento": "Sanitation (%)",
+                "coberturaVacinal": "Vaccination Cov. (%)"
+            },
+            "tipoProfissional": "Professional Type",
+            "quantidadeProfissionais": "Number of Professionals",
+            "nomeProfissional": "Professional Name",
+            "cns": "CNS",
+            "tipoDoProfissional": "Professional Type",
+            "atendimentosPorProfissionais": "Visits per Professional",
+            "atendimentosPorOrcamento": "Visits per Budget",
+            "plotTiposProfissionais": "Professional Types",
+            "plotAtendimentosTipo": "Visits by Type",
+            "plotAtendimentosUnidadeMediaMunicipal": "Total Visits - APS Unit versus Municipal Average",
+            "plotIndiceAtendimentosUnidadeMedia": "Total Visits per Population - APS Unit Index versus Municipal, State, and National Index",
+            "plotAtendimentosUnidadeOutrasUnidades": "Total Visits - APS Unit versus Other Municipal Units",
+            "plotIndiceAtendimentosOrcamentoUnidadeOutrasUnidades": "Total Visits per Budget - APS Unit versus Other Municipal Units",
+            "plotIndiceAtendimentosProfissionaisUnidadeOutrasUnidades": "Total Visits per Professionals - APS Unit versus Other Municipal Units",
+            "tabelaTiposProfissionais": "Professional Types",
+            "tabelaProfissionais": "Professionals",
+            "mapa": "Map",
+            "tiposProfissionais": "Professional Types",
+            "atendimentosPorTipo": "Visits by Type",
+            "nenhumDadoDisponivel": "No data available to display the chart.",
+            "totalAtendimentosOutrasUnidades": "Total Visits - {{nomeUnidade}} versus Other Municipal Units",
+            "totalAtendimentosOrcamentoOutrasUnidades": "Total Visits per Budget - {{nomeUnidade}} versus Other Municipal Units",
+            "totalAtendimentosProfissionaisOutrasUnidades": "Total Visits per Professionals - {{nomeUnidade}} versus Other Municipal Units",
+            "tiposProfissionaisUnidadeAps": "Professional Types of the APS Unit",
+            "profissionaisUnidadeAps": "Professionals of the APS Unit",
+            "carregando_grafico": "Loading chart...",
+            "unidadeForaLimites": "The unit is located outside the municipality’s geographic boundaries. To correct,",
+            "atualizeCadastro": "update the record",
+            "irParaGraficoAtendimentosTipo": "Go to Chart: Visits by Type",
+            "irParaGraficoTiposProfissionais": "Go to Chart: Professional Types",
+            "irParaGraficoTotalAtendimentos": "Go to Chart: Total Visits - APS Unit versus Municipal Average",
+            "irParaGraficoTotalAtendimentosPorPopulacao": "Go to Chart: Total Visits per Population - APS Unit Index versus Municipal, State, and National Index",
+            "irParaGraficoTotalAtendimentosOutrasUnidades": "Go to Chart: Total Visits - {{nomeUnidade}} versus Other Municipal Units",
+            "irParaGraficoTotalAtendimentosPorOrcamento": "Go to Chart: Total Visits per Budget - {{nomeUnidade}} versus Other Municipal Units",
+            "irParaGraficoTotalAtendimentosPorProfissionais": "Go to Chart: Total Visits per Professionals - {{nomeUnidade}} versus Other Municipal Units",
+            "irParaTabelaTiposProfissionais": "Go to Table: Professional Types of the APS Unit",
+            "irParaTabelaProfissionais": "Go to Table: Professionals of the APS Unit",
+            "selecioneAno": "Select Year:",
+            "dadosNaoDisponiveis": "Data not available",
+            "tipos_unidades": "Unit Types",
+            "atendimentos_por_tipo": "Visits by Type",
+            "unidades_aps": "APS Units",
+            "tipos_profissionais_por_unidade_aps": "Professional Types per APS Unit",
+            "nenhum_dado_para_grafico": "No data available to display the chart."
+        },
+
+        "configuracoes-mudarSenha": {
+            "erro_confirmacao": "New password and confirmation do not match",
+            "senha_atual": "Current Password",
+            "nova_senha": "New Password",
+            "repita_nova_senha": "Repeat New Password",
+            "placeholder_repetir_senha": "Repeat the new password",
+            "placeholder_nova_senha": "Enter the new password",
+            "placeholder_informe_senha": "Enter the current password"
+        }
+    },
+
+  
+    "routes": {
+        "estimativas": {
+            "estimativas_demanda": {
+                "nome": "Demand Estimate"
+            },
+            "cidade": {
+                "nome": "City",
+                "titulo": "Demand Estimate by City",
+                "submodulos": {
+                    "solicitacao": {
+                    "nome": "Request",
+                    "titulo": "City Demand Estimate Request"
+                    },
+                    "detalhes": {
+                    "nome": "Details",
+                    "titulo": "Request Details"
+                    }
+                }
+            }
+        }
+    }
+
+    
+  }

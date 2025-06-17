@@ -1,0 +1,21 @@
+FROM openjdk:17.0.1-jdk-slim
+EXPOSE 8080
+
+ADD src/main/resources/cplex.bin /cplex.bin
+ADD src/main/resources/options.properties /options.properties
+
+RUN apt-get update && \
+	apt-get install -y python3 python3-pip python3-matplotlib
+    
+RUN python3 -m pip install pulp 
+RUN python3 -m pip install numpy
+
+RUN chmod +x /cplex.bin
+
+RUN /cplex.bin -f /options.properties -i silent
+
+RUN python3 /opt/ibm/ILOG/CPLEX_Studio2211/python/setup.py install
+
+ENV PATH="/opt/ibm/ILOG/CPLEX_Studio2211/cplex/bin/x86-64_linux:${PATH}"
+
+RUN python3 /opt/ibm/ILOG/CPLEX_Studio2211/python/setup.py install

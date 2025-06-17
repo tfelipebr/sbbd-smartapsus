@@ -1,0 +1,82 @@
+spring.application.name: servico_dados
+
+server.port: 8083
+
+servico_spring.upload.dir: /home/igor/upload_dir
+
+
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5435}/${DB_NAME:postgis}?stringtype=unspecified
+    username: ${DB_USER:postgis}
+    password: ${DB_PASSWORD:postgis}
+  jpa:
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
+    # This should no longer be needed with Hibernate 6
+    #database-platform: org.hibernate.spatial.dialect.postgis.PostgisPG10Dialect
+    show-sql: true
+    database: postgresql
+    # PotGIS configuration
+    properties:
+      hibernate:
+        jdbc:
+          batch_size: 1000
+          lob:
+            non_contextual_creation: true
+        order_inserts: true
+        order_updates: true
+
+spring.cloud.function.definition: consumeMessage;consumeExecucaoAlgoritmoMessage
+
+spring.cloud.stream:
+  defaultBinder: rabbit
+  default.contentType: application/json
+  bindings.consumeMessage-in-0:
+    destination: msg_dados
+  bindings.dados-out-0:
+    destination: msg_dados
+  bindings.consumeExecucaoAlgoritmoMessage-in-0:
+    destination: msg_demanda
+  bindings.consumeExecucaoAlgoritmoMessage-out-0:
+    destination: msg_demanda
+
+spring.cloud.stream.bindings.consumeMessage-in-0.consumer:
+  maxAttempts: 3
+  backOffInitialInterval: 500
+  backOffMaxInterval: 1000
+  backOffMultiplier: 2.0
+
+spring.cloud.stream.rabbit.bindings.consumeMessage-in-0.consumer:
+  autoBindDlq: true
+  republishToDlq: true
+
+spring.cloud.stream.bindings.consumeExecucaoAlgoritmoMessage-in-0.consumer:
+  maxAttempts: 3
+  backOffInitialInterval: 500
+  backOffMaxInterval: 1000
+  backOffMultiplier: 2.0
+
+spring.cloud.stream.rabbit.bindings.consumeExecucaoAlgoritmoMessage-in-0.consumer:
+  autoBindDlq: true
+  republishToDlq: true
+
+
+  
+  
+spring.rabbitmq:
+  host: ${MESSAGE_HOST:localhost}
+  port: 5672
+  username: guest
+  password: guest
+---
+spring.config.activate.on-profile: docker
+server.port: 8080
+spring.rabbitmq:
+  host: message
+  
+servico_spring.upload.dir: /upload
+
